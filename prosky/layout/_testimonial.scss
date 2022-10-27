@@ -1,0 +1,33 @@
+.testimonial{
+  width: 100%;
+  margin-top: 84px;
+  height: 689px;
+  background: rgba(163, 142, 129, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 127.5px;
+}
+.profcircle{
+  width: 525px;
+  height: 525px;
+  background-color: #ff8f00;
+  background-image: url("/images/testimonial/man-388104_1920-removebg-preview\ 1.png");
+  border-radius: 255.15px;
+}
+.proftext{
+  flex: 2;
+}
+.ptext{
+  font-size: $app-text;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.01em;
+  color: rgba(51, 39, 0, 0.9);
+}
+.ptexts{
+  padding-top: 37.91px;
+  font-weight: 700;
+  font-size: 34.6372px;
+  color: rgba(51, 39, 0, 0.95);
+}

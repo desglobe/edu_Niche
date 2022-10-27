@@ -1,0 +1,14 @@
+{
+  "name": "task_3_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch prosky -o css",
+    "start": "sass --watch prosky/prosky.scss css/prosky.css"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

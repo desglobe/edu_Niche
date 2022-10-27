@@ -1,0 +1,195 @@
+.platform{
+  @include servplat();
+  background: $realmain-bg;
+  height: 700px;
+  justify-content: space-between;
+}
+.learns{
+  @include learnings();
+  margin-left: 103px;
+}
+.circler{
+  @include imgcont();
+  width: 650px;
+}
+.circler__platmain{
+  @include mainbg();
+  background-color: #9bd992;
+  background-image: url("/images/platform/main.png");
+  background-size: 550.93px 750.63px;
+  background-position: 550.93px;
+  width: 482px;
+  height: 482px;
+  box-shadow: 2.92121px 2.92121px 7.30303px 1.46061px #9BD992;
+  border-radius: 252px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  margin-left: 500px;
+}
+.circler__yellow{
+  width: 262px;
+  height: 262px;
+  position: absolute;
+  left: 950px;
+  bottom: -2283px;
+  border-radius: $border-rad;
+  background: #fddf97;
+  filter: blur(5px);
+}
+.circler__bctop {
+  width: 117px;
+  height: 117px;
+  position: absolute;
+  left: 1040px;
+  bottom: -1790px;
+  border-radius: $border-rad;
+  background: rgba(152, 190, 222, 0.6);
+  filter: blur(5px);
+}
+.circler__yellowfront{
+  width: $plat-width;
+  height: $plat-height;
+  position: absolute;
+  left: 750px;
+  bottom: -2230px;
+  border-radius: $border-rad;
+  background: rgba(167, 75, 92, 0.2);
+  filter: blur(5px);
+}
+.circler__mntop{
+  width: $plat-width;
+  height: $plat-height;
+  position: absolute;
+  left: 670px;
+  bottom: -1800px;
+  border-radius: $border-rad;
+  background: rgba(251, 179, 124, 0.4);
+  filter: blur(5px);
+}
+
+// Aspect of learning
+
+.aspectarr{
+  margin-left: 135px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aspectarr .basic-text{
+  font-size: $review-head;
+    font-weight: 700;
+    line-height: $line-height;
+    letter-spacing: $letterspace;
+    color: $learning-clr;
+}
+.arrowimg{
+  display: flex;
+  margin-right: 151px;
+  align-items: center;
+  gap: 33px;
+  .smallar{
+    width: 38px;
+    height: 38px;
+  }
+  .bigar{
+    width: 58px;
+    height: 58px;
+  }
+}
+.studycourses{
+  margin-left: 135px;
+  margin-top: 60px;
+  // margin-bottom: 84px;
+  display: flex;
+  gap: 33px;
+}
+.studyroom {
+    width: $card-width;
+    height: 360.14px;
+    background: rgba(254, 227, 207, 0.5);
+    box-shadow: 4px 4px 10px #ffefdf;
+    border-radius: 18.8556px;
+    .book{
+      width: 92px;
+      height: 92px;
+      background-color: rgba(193, 214, 229, 0.5);
+      background-image: url("/images/platform/ook.png");
+      background-size: 52.5px 45.5px;
+      background-position: 23.25px;
+      background-repeat: no-repeat;
+      filter: blur(1px);
+      border-radius: $border-rad;
+      margin: 61.07px 130px 21px 124px;
+    }
+}
+.sroom{
+  padding-top: 21px;
+  line-height: 27px;
+  letter-spacing: 1%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(71, 60, 24, 0.85);
+}
+.sroom-text{
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  color: rgba(71, 60, 24, 0.75);
+}
+.unicurriculum{
+  width: 367px;
+  height: 382px;
+  background: rgba(79, 146, 182, 0.95);
+  box-shadow: 4px 4px 20px rgba(79, 146, 182, 0.7);
+  border-radius: 20px;
+  .curriculum{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 239, 223, 0.9);
+    background-image: url("/images/platform/curriculum.png");
+    background-size: 47.48px 58.43px;
+    background-position: 30.78px;
+    background-repeat: no-repeat;
+    filter: blur(1.30435px);
+    border-radius: $border-rad;
+    margin: 43px 117px 22px 130px;
+  }
+}
+.currihead {
+  padding-top: 22px;
+  line-height: 27px;
+  letter-spacing: 1%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 22px;
+  color: #eee6dc;
+}
+.curri-text {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: $learning-text;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: rgba(238, 230, 220, 0.9);
+}
+.courses {
+  width: 92px;
+  height: 92px;
+  background-color: rgba(193, 214, 229, 0.5);
+  background-image: url("/images/platform/Vector.png");
+  background-size: 52.5px 45.5px;
+  background-position: 23.25px;
+  background-repeat: no-repeat;
+  filter: blur(1px);
+  border-radius: $border-rad;
+  margin: 61.07px 130px 21px 124px;
+}

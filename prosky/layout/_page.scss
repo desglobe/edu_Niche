@@ -1,0 +1,249 @@
+// Main
+main {
+  background-color: $realmain-bg;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .reviews__head {
+    padding-top: 68px;
+    font-size: $review-head;
+    letter-spacing: 1%;
+    line-height: 39.07px;
+    text-align: center;
+    color: $isthe;
+    font-weight: 700;
+  }
+  .reviews__text {
+    font-size: $review-parag;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.01em;
+    line-height: 24px;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+  }
+  .sec-img {
+    position: absolute;
+    bottom: -370px;
+    left: 265px;
+  }
+  .third-img {
+    position: absolute;
+    left: 917px;
+    bottom: -370px;
+  }
+}
+.category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 510px;
+  bottom: -426px;
+  &__tptext {
+    position: absolute;
+    left: -200px;
+    bottom: 75px;
+    color: rgba(51, 39, 0, 0.7);
+    font-size: $category-text;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  &__slctimg {
+    position: absolute;
+    left: -125px;
+    bottom: 82px;
+  }
+  &__slc-timgs {
+    position: relative;
+    right: 90px;
+    bottom: 55px;
+  }
+  &__btmtext {
+    color: rgba(51, 39, 0, 0.35);
+    font-size: 17px;
+    position: relative;
+    left: -55px;
+    bottom: 58px;
+  }
+  &__lastselect {
+    position: absolute;
+    left: 445px;
+    bottom: 75px;
+  }
+  .slc-timgs {
+    position: absolute;
+    left: 75px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+// card section
+
+.card {
+  display: flex;
+  gap: 28px;
+  margin-top: 42px;
+  justify-content: center;
+  align-items: center;
+}
+.card__futa {
+  @include card();
+}
+.card__ui {
+  @include card();
+  background-color: $cardui-bg;
+}
+.card__funab {
+  @include card();
+  background-color: $cardfunab-bg;
+}
+.card__imgtext {
+  padding: 5px 15px;
+}
+.sch-futa {
+  @include school();
+}
+.sch-ui,
+.sch-funab {
+  @include school();
+  color: $ui-clr;
+}
+.futa-text {
+  @include schoolp();
+}
+.ui-text {
+  @include schoolp();
+  color: $uitext-clr;
+}
+.funab-text {
+  @include schoolp();
+  color: $funabtext-clr;
+}
+
+// Rate and Reviews
+
+.starate {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 7px;
+}
+.rate-futa {
+  @include review();
+}
+.rate-ui,
+.rate-funab {
+  @include review();
+  color: $uitext-clr;
+}
+
+// social proofs
+
+.advevi {
+  display: flex;
+  // justify-content: space-around;
+  gap: 50.12px;
+  align-items: center;
+  margin-top: 9px;
+  &__like {
+    @include stats();
+    gap: 4px;
+  }
+  &__share {
+    @include stats();
+    gap: 10.73px;
+  }
+  &__comment {
+    @include stats();
+    gap: 7px;
+  }
+}
+
+// elipse
+.ellipse figure {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+// services
+
+.services {
+  @include servplat();
+}
+.circles {
+  @include imgcont();
+  .circles__biground {
+    position: absolute;
+    bottom: -1230px;
+    left: 70px;
+  }
+  .circles__bigrounder {
+    position: absolute;
+    bottom: -1580px;
+    left: 120px;
+  }
+  .circles__bigroundest{
+    position: absolute;
+    bottom: -1060px;
+    left: 480px;
+  }
+    .circles__big {
+      position: absolute;
+      bottom: -1500px;
+      left: 480px;
+    }
+}
+.roundup {
+ @include mainbg();
+}
+
+.learningtext {
+  @include learnings();
+  &__head {
+    font-size: $review-head;
+    font-weight: 700;
+    line-height: $line-height;
+    letter-spacing: $letterspace;
+    color: $learning-clr;
+    transform: rotate(0.71deg);
+    padding-bottom: 32.04px;
+  }
+  &__parag {
+    font-size: $learning-text;
+    font-weight: $fnt-weight;
+    line-height: 20px;
+    letter-spacing: $learning-clr;
+    color: $learning-small;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  &__btn {
+    width: 255px;
+    height: 72px;
+    margin-bottom: 40px;
+    font-size: 34.02px;
+  }
+  &--btn {
+    color: $topabs-text;
+    background-color: $link-signupbg-clr;
+    border-radius: 15px;
+    border: none;
+  }
+}
+button{
+  margin-top: 40px;
+}

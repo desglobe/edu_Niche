@@ -1,0 +1,42 @@
+.coursebreakdown{
+  margin-top: 78px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.coursebreakdown--ratio{
+  background-color: $realmain-bg;
+}
+.coursename span, .coursecode span, .dept span{
+  display: flex;
+  flex-direction: column;
+  font-size: $pry-font-size;
+  line-height: 17px;
+  font-weight: 500;
+  color: rgba(51, 39, 0, 0.75);
+  padding: 10px;
+}
+.noofreviews span{
+  display: flex;
+  flex-direction: column;
+  font-size: $pry-font-size;
+  line-height: 17px;
+  font-weight: 500;
+  color: rgba(51, 39, 0, 0.75);
+  padding: 10px;
+}
+.coursename p, .coursecode p, .noofreviews p, .dept p{
+  padding-bottom: 22px;
+  font-weight: 700;
+  font-size: $link-text;
+  line-height: 22px;
+  color: rgba(51, 39, 0, 0.85);
+  padding-left: 10px;
+}
+.ellipse-sec figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

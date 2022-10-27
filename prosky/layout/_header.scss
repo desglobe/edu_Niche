@@ -1,0 +1,111 @@
+header {
+  background-color: $realmain-bg;
+  position: relative;
+  height: 40rem;
+  .ytr {
+    position: absolute;
+    width: 1105px;
+    height: 659px;
+    left: 240px;
+    top: 0px;
+    z-index: -10;
+    // box-shadow: 4px 4px 10px 4px #FFFBF0;
+    // background-image: url("/images/iStock-622015126-college-stud-writing 1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .lgnav {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 0 9rem;
+  }
+}
+
+.gradient-overlay {
+  background: linear-gradient(90deg, $realmain-bg, transparent);
+  padding-left: 143px;
+  padding-top: 207px;
+  padding-bottom: 2rem;
+}
+// Logo
+
+.logohead__text {
+  font-size: $logo-text;
+  color: $logo-clr;
+}
+
+// Text
+
+.educate {
+  background: url("/images/iStock-622015126-college-stud-writing 1.png")
+    no-repeat fixed;
+  background-position: top right;
+  background-size: cover;
+  //   background: 4px 4px 10px 4px #fffbf0
+  //     url(iStock-622015126-college-stud-writing.jpg) no-repeat fixed;
+}
+.educate .educate__text {
+  font-size: 72px;
+  font-weight: 700;
+  color: $link-signuptext-clr;
+}
+.educate .educate__fstyle {
+  color: $edu-text;
+}
+.educate__legacy {
+  color: $linklegacy-clr;
+}
+.educate__tptext {
+  color: $link-signuptext-clr;
+  font-size: $top-paragraph;
+  padding-top: 29px;
+}
+
+// App Download Stores
+
+.download {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 69px;
+  gap: 1.9em;
+}
+.download__googleplay {
+  background-color: $app-bg;
+  border-radius: 10px;
+  width: 271px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download__googleplay img,
+.download__appstore img {
+  width: 38.19px;
+  height: 50px;
+}
+.download__googleplay p,
+.download__appstore p {
+  font-size: $getit;
+  color: $app-clr;
+}
+.download__googleplay span,
+.download__appstore span {
+  color: #fff;
+  font-size: $app-text;
+}
+.download__appstore {
+  background-color: $app-bg;
+  width: 259px;
+  height: 72px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

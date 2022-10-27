@@ -1,0 +1,24 @@
+@import "abstracts/colors";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/breakpoint";
+
+@import "base/fonts";
+@import "base/typography";
+@import "base/base";
+@import "base/fonts-size";
+@import "base/font-family";
+
+@import "components/button";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+@import "layout/testimonial";
+@import "layout/platform";
+@import "layout/login";
+@import "layout/page";
+@import "layout/course";
+
+@import "pages/home";
+

@@ -1,0 +1,66 @@
+@mixin card() {
+    width: $card-width;
+    height: $card-height;
+    border-radius: $card-border;
+    box-shadow: $card-shadow;
+    background-color: $cardfuta-bg;
+}
+@mixin school() {
+    font-size: $getit;
+    font-weight: $fnt-weight;
+    color: $futa-clr;
+    letter-spacing: $letterspace;
+    padding-top: $sch-pad-top;
+}
+@mixin schoolp() {
+    font-size: $school-text;
+    font-weight: $fnt-weight;
+    letter-spacing: $letterspace;
+    color: $school-p;
+    padding-top: $sch-pad-text;
+}
+@mixin review() {
+    font-size: $review-text;
+    color: $school-p;
+    letter-spacing: $letterspace;
+}
+@mixin stats() {
+    display: $flex;
+    align-items: $align;
+}
+@mixin servplat() {
+    background-color: $services-bg;
+    height: 723px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@mixin learnings(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    width: 700px;
+}
+@mixin imgcont() {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+@mixin mainbg() {
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    left: 150px;
+    width: 465px;
+    height: 465px;
+    background-color: rgba(251, 180, 125, 0.8);
+    background-image: url("/images/services/stud.png");
+    background-size: 553px 571.25px;
+    background-position: 601px;
+    box-shadow: 2.81818px 2.81818px 7.04545px 1.40909px #fab178;
+    border-radius: 50%;
+}

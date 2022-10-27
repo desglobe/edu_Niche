@@ -1,0 +1,52 @@
+// Logo
+.logohead .logohead__text {
+  text-transform: capitalize;
+  font-size: $logo-text;
+  font-style: normal;
+}
+
+// Links
+.navigate {
+  margin-right: -103px;
+  .navig {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+
+    &__itemi {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: $link-signupbg-clr;
+      padding: 1rem;
+      position: relative;
+      width: 107px;
+      height: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0.5px 10px rgba(51, 39, 0, 0.5);
+    }
+    .active {
+      // position: absolute;
+      // width: 44px;
+      // left: 840px;
+      // top: 43px;
+      background-color: fffbf0;
+      padding-bottom: 5px;
+      color: $linklegacy-clr;
+      border-bottom: 2px solid #8a6a00;
+    }
+  }
+  a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: $linklegacy-clr;
+    font-style: normal;
+    font-weight: 500;
+    font-size: $link-text;
+    // padding: 0 30px;
+  }
+}
